@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .getNotified{
+        @apply bg-[url('assets/website/orange-pattern.jpg')] bg-cover bg-no-repeat bg-center
+    }
+
+    /* #Footer{
+        @apply bg-[url('assets/website/footer-pattern.jpg')] bg-contain
+    } */
+}
